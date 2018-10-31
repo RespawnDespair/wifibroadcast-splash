@@ -37,7 +37,7 @@ int main(int argc, char *argv[]) {
 	
 	VGImage splash = CreateImageFromJpeg(filepath);					// Load the image
 
-	DrawImageAtFit(0, 0, width, height, splash);    				// Draw stretched across entire screen
+	DrawImageAtFit(0, height, width, height, splash);    				// Draw stretched across entire screen
     
     End();
     usleep(7000000);
