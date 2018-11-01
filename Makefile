@@ -5,7 +5,7 @@ LDFLAGS+=-L/opt/vc/lib/ -lbrcmGLESv2 -lbrcmEGL -lopenmaxil -lbcm_host -lvcos -lv
 all: splash
 
 splash: main.o 
-	gcc -o /tmp/$@ $^ $(LDFLAGS)
+	gcc -o $@ $^ $(LDFLAGS)
 
 clean:
 	rm -f splash *.o *~
