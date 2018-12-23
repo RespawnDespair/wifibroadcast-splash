@@ -1,2 +1,2 @@
 # wifibroadcast-splash
-Boot screen for the EZ-Wifibroadcast system
+Boot screen for the Open.HD system
